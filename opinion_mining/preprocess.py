@@ -4,8 +4,8 @@ import os
 import nltk
 from bs4 import BeautifulSoup
 from collections import namedtuple
-from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
+from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 
