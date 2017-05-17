@@ -2,7 +2,8 @@
 
 이 소스는 '웹을 위한 머신러닝' 도서의 181p ~ 188p에 있는 오피니언 마이닝 방법에 대한 예제 소스입니다.
 
-원 소스는 다음 링크에 있습니다
+원 소스는 다음 링크에 있습니다.
+
 https://github.com/ai2010/machine_learning_for_the_web/tree/master/chapter_4
 
 Python 2에 맞게 작성되어 있던 소스를 Python 3에서 동작 가능하도록 수정 및 약간의 리팩토링을 진행하였으며 전체 흐름은 원 소스와 동일합니다.
@@ -28,8 +29,11 @@ Python 2에 맞게 작성되어 있던 소스를 Python 3에서 동작 가능하
 ## 실행 방법
 ```
 git clone git@github.com:jongbumi/mlstudy_opinion_mining.git
+
 virtualenv -p python3 venv
 . venv/bin/activate
+
 pip install BeautifulSoup4 nltk gensim sklearn
+
 python ./main.py
 ```
