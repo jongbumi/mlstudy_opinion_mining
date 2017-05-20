@@ -8,10 +8,11 @@ https://github.com/ai2010/machine_learning_for_the_web/tree/master/chapter_4
 
 Python 2에 맞게 작성되어 있던 소스를 Python 3에서 동작 가능하도록 수정 및 약간의 리팩토링을 진행하였으며 전체 흐름은 원 소스와 동일합니다.
 
-## 언어
+## 필수사항
 - Python3
+- Virtualenv
 
-## 필수패키지
+## 설치할 패키지
 - BeautifulSoup4
 - nltk
 - gensim
@@ -28,8 +29,9 @@ Python 2에 맞게 작성되어 있던 소스를 Python 3에서 동작 가능하
 
 ## 실행 방법
 ```
-git clone git@github.com:jongbumi/mlstudy_opinion_mining.git
+git clone https://github.com/jongbumi/mlstudy_opinion_mining.git
 
+cd mlstudy_opinion_mining
 virtualenv -p python3 venv
 . venv/bin/activate
 
